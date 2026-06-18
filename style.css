@@ -1,0 +1,86 @@
+Educational Css
+/* బేసిక్ సెట్టింగ్స్ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* హెడర్ స్టైల్ */
+header {
+    background-color: #282A35; /* Dark color like W3Schools */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header p {
+    color: #04AA6D; /* Green accent color */
+    margin-top: 5px;
+}
+
+/* మెయిన్ లేఅవుట్ (Flexbox వాడాం పక్కపక్కనే రావడానికి) */
+.main-container {
+    display: flex;
+}
+
+/* సైడ్‌బార్ స్టైల్ */
+.sidebar {
+    width: 25%;
+    background-color: #F1F1F1;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h3 {
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D; /* Active Topic Green Color */
+    color: white;
+}
+
+/* కంటెంట్ ఏరియా స్టైల్ */
+.content {
+    width: 75%;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    color: #282A35;
+}
+
+/* ఎగ్జాంపుల్ బాక్స్ స్టైల్ */
+.example-box {
+    background-color: #E7E9EB;
+    border-left: 4px solid #04AA6D;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.example-box pre {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    font-family: monospace;
+}
